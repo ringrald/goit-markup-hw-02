@@ -2,7 +2,8 @@
   color: var(--primary-text-color);
   font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+  font-size: 14px;
 }
 a {
   text-decoration-line: none;
@@ -18,7 +19,6 @@ main {
 }
 .logo-picture {
   font-family: Raleway, sans-serif;
-  letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -27,7 +27,6 @@ main {
 .site-nav a {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.35;
 }
 .site-nav a:hover,
@@ -45,10 +44,9 @@ main {
 .contact-data a {
   color: var(--text-link-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.35;
 }
-.our-team p {
+.team-name {
   color: var(--text-link-color);
 }
 .hero-section {
@@ -99,7 +97,6 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  letter-spacing: 0.03em;
   text-align: center;
 }
 .portfolio-examples button:hover,
@@ -117,26 +114,18 @@ main {
 }
 
 .advantages h3 {
-  text-align: left;
-  font-weight: 700;
-  font-size: 14px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .advantages p {
   text-align: left;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
-.h2-title {
+.section-title {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .team-section {
   background-color: var(--inactive-buttons);
@@ -151,35 +140,29 @@ main {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.14);
 }
 
-.our-team h3 {
+.team-name {
   text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
-.our-team p {
+.team-position {
   text-align: center;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .gallery-items li {
   border: 1px solid var(--portfolio-border);
 }
-.gallery-items h2 {
+.project-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.gallery-items p {
-  font-weight: 400;
+.project-text {
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
 .examples-all {
   width: 73px;
@@ -202,18 +185,12 @@ footer {
 .address {
   color: var(--accent-color);
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .contact-data-footer a {
   color: rgba(255, 255, 255, 0.6);
-  color: var(--accent-color);
-  font-weight: 400;
-  font-size: 14px;
+
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .contact-data-footer a:hover {
   color: var(--active-accent);
